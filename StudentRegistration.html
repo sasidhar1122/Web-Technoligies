@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+             border: 1px solid black;
+             padding-left: 1pc;
+             margin-right: 30pc;
+             margin-left: 30pc;
+             height: 40pc;
+         }
+    </style>
+</head>
+<body>
+    <form>
+    <h1 style="text-align: center;">Student Registration Form</h1>
+    <label for="first">Name of the Applicant</label><br>
+    <input type="text" name="first" id="first" placeholder="First">
+    <input type="text" name="first" id="last" placeholder="Last" style="margin-left: 2pc;"><br><br>
+    <label for="dob">Date of Birth</label><br>
+    <input type="date" name="dob" id="dob" placeholder="MM/DD/YYYY" style="width: 25pc;"><br>
+    <p>Gender</p>
+    <input type="radio" name="gen" id="gen">
+    <label for="gen">Male</label>
+    <input type="radio" name="gen" id="gen" style="margin-left: 5pc;">
+    <label for="gen">Female</label>
+    <p>Address</p>
+    <input type="text" placeholder="Street Address" style="width:25pc;"><br><br>
+    <input type="text" placeholder="Street Address Line 2" style="width: 25pc;"><br><br>
+    <input type="text" placeholder="City">
+    <input type="text" placeholder="Region" style="margin-left: 2pc;"><br><br>
+    <input type="text" pattern="[0-9]{5}" placeholder="Postal / Zip Code">
+    <input type="text" placeholder="country" style="margin-left: 2pc;"><br><br>
+    <label for="mail">Email</label><br><br>
+    <input type="email" name="mail" id="mail" placeholder="Enter Mail" style="width: 25pc;">
+</form>
+</body>
+</html>

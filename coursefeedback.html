@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    td,th{
+        padding: 2pc;
+    }
+</style>
+<body>
+    <form>
+    <h1 style="text-align: center;">Course Evaluation</h1>
+    <h3 style="text-align: center; text-decoration: underline;">Please Provide the feedback about the course you took</h3>
+    <fieldset>
+    <label for="name" >Name</label><br>
+    <input type="text" name="name" id="name" placeholder="First" required>
+    <input type="text" name="name" id="name" required  placeholder="Last" style="margin-left: 2pc;"><br><br>
+    <span>Which Course did you attend?</span><br>
+    <label for="course1">Python</label>
+    <input type="checkbox" id="course1" name="courses" value="Python"><br>
+
+    <label for="course2">Java</label>
+    <input type="checkbox" id="course2" name="courses" value="Java"><br>
+
+    <label for="course3">Html</Html></label>
+    <input type="checkbox" id="course3" name="courses" value="Html"><br>
+
+    <label for="course4">Css</label>
+    <input type="checkbox" id="course4" name="courses" value="Css"><br>
+
+    <label for="course5">Php</label>
+    <input type="checkbox" id="course5" name="courses" value="Php"><br><br>
+
+    <span>Select Instructor</span><br>
+    <label for="a">John</label>
+    <input type="radio" name="a" id="a"><br>
+    <label for="a">Ram</label>
+    <input type="radio" name="a" id="a"><br><br>
+    <span>Please Rate the following:-</span>
+    <table>
+        <tr>
+            <th>   </th>
+            <th>poor</th>
+            <th>below<br>Average</th>
+            <th>Average</th>
+            <th>Good</th>
+            <th>Great</th>
+        </tr>
+        <tr>
+            <td>Instructor Attitude</td>
+            <td><label for="rate"></label><input type="radio" name="rate" id="rate"></td>
+            <td><label for="rate"></label><input type="radio" name="rate" id="rate"></td>
+            <td><label for="rate"></label><input type="radio" name="rate" id="rate"></td>
+            <td><label for="rate"></label><input type="radio" name="rate" id="rate"></td>
+            <td><label for="rate"></label><input type="radio" name="rate" id="rate"></td>
+        </tr>
+        <tr>
+            <td>Instructor methods</td>
+            <td><label for="for"></label><input type="radio" name="for" id="for"></td>
+            <td><label for="for"></label><input type="radio" name="for" id="for"></td>
+            <td><label for="for"></label><input type="radio" name="for" id="for"></td>
+            <td><label for="for"></label><input type="radio" name="for" id="for"></td>
+            <td><label for="for"></label><input type="radio" name="for" id="for"></td>
+        </tr>
+    </table>
+    <span style="margin-left: 25pc;">Thank You</span>
+     </fieldset>
+     
+    </form>
+</body>
+</html>
